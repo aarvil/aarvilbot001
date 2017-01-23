@@ -1,0 +1,23 @@
+{
+  "name": "aarvilbot001",
+  "version": "1.0.0",
+  "description": "simplebot",
+  "main": "simplebot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarvil/aarvilbot001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarvil/aarvilbot001/issues"
+  },
+  "homepage": "https://github.com/aarvil/aarvilbot001#readme",
+  "dependencies": {
+    "botbuilder": "^3.5.4",
+    "restify": "^4.3.0"
+  }
+}
