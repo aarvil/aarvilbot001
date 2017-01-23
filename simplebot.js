@@ -17,10 +17,8 @@ var server = restify.createServer();
   
 // Create chat bot
 var connector = new builder.ChatConnector({
-    //appId: process.env.MICROSOFT_APP_ID,
-    //appPassword: process.env.MICROSOFT_APP_PASSWORD
-    appId: "3510ec80-b995-4d00-8641-c517adeb2851",
-    appPassword: "bMimW4uX3YTg5KnSUn385Xe"
+    appId: process.env.MICROSOFT_APP_ID,
+    appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
